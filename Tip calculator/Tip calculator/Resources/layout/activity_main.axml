@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1">
+		<TextView
+			android:text="Arve"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:id="@+id/textView1"
+			android:layout_marginBottom="14.5dp" />
+		<EditText
+			android:text = "1"
+			android:layout_width="match_parent"
+			android:layout_height="45.0dp"
+			android:id="@+id/Bill_editText"
+			android:layout_marginBottom="0.0dp"
+			android:layout_marginTop="0.0dp" />
+		<TextView
+			android:text="Jootraha"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:id="@+id/TextBox_Tip" />
+		<SeekBar
+			android:layout_width="match_parent"
+			android:layout_height="46.0dp"
+			android:id="@+id/Tip_seek_bar"
+			android:layout_marginBottom="4.5dp" />
+		<TextView
+			android:text="1%"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="24.5dp"
+			android:id="@+id/Tip_toolbar" />
+		<TextView
+			android:text="Large Text"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="38.5dp"
+			android:gravity="center"
+			android:id="@+id/Result_text_box"
+			android:layout_marginBottom="15.0dp" />
+		<Button
+			android:text="Uptate"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/Uptate_button" />
+	</LinearLayout>
+</RelativeLayout>

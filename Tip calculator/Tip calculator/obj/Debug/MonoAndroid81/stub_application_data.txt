@@ -1,0 +1,2 @@
+android.app.Application
+Tip_calculator.Tip_calculator
